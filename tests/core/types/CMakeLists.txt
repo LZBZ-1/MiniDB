@@ -4,6 +4,8 @@ add_executable(minidb_types_tests
         NumberTypeTest.hpp
         Varchar2TypeTest.cpp
         Varchar2TypeTest.hpp
+        CharTypeTest.cpp
+        CharTypeTest.hpp
 )
 
 target_link_libraries(minidb_types_tests

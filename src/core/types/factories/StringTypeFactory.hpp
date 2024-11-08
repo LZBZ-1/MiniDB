@@ -3,6 +3,7 @@
 #define STRING_TYPE_FACTORY_HPP
 
 #include "../Varchar2Type.hpp"
+#include "../CharType.hpp"
 #include <concepts>
 
 namespace db::types {
@@ -21,6 +22,24 @@ namespace db::types {
                 nullable,
                 static_cast<size_t>(maxLength)
             );
+        }
+
+        template<typename T>
+        requires std::integral<T> || std::floating_point<T>
+        static std::unique_ptr<DataType> createChar(
+            T length = 1,
+            bool nullable = true
+        ) {
+            return std::make_unique<CharType>(
+                nullable,
+                static_cast<size_t>(length)
+            );
+        }
+
+        static std::unique_ptr<DataType> createDefaultChar(
+            bool nullable = true
+        ) {
+            return createChar<size_t>(1, nullable);
         }
 
         static std::unique_ptr<DataType> createDefaultVarchar2(
