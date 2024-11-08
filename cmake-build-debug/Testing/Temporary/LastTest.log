@@ -1,0 +1,68 @@
+Start testing: Nov 08 18:42 Hora est. Pacífico, Sudamérica
+----------------------------------------------------------
+1/1 Testing: minidb_types_tests
+1/1 Test: minidb_types_tests
+Command: "C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/bin/minidb_types_tests.exe"
+Directory: C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/tests/core/types
+"minidb_types_tests" start time: Nov 08 18:42 Hora est. Pacífico, Sudamérica
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 19 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from Varchar2TypeTest
+[ RUN      ] Varchar2TypeTest.ConstructorShouldInitializeWithValidParameters
+[       OK ] Varchar2TypeTest.ConstructorShouldInitializeWithValidParameters (0 ms)
+[ RUN      ] Varchar2TypeTest.GetNameShouldReturnCorrectFormat
+[       OK ] Varchar2TypeTest.GetNameShouldReturnCorrectFormat (0 ms)
+[ RUN      ] Varchar2TypeTest.ConstructorShouldThrowOnInvalidLength
+[       OK ] Varchar2TypeTest.ConstructorShouldThrowOnInvalidLength (0 ms)
+[ RUN      ] Varchar2TypeTest.GetSizeShouldReturnMaxLength
+[       OK ] Varchar2TypeTest.GetSizeShouldReturnMaxLength (0 ms)
+[ RUN      ] Varchar2TypeTest.CloneShouldCreateExactCopy
+[       OK ] Varchar2TypeTest.CloneShouldCreateExactCopy (0 ms)
+[ RUN      ] Varchar2TypeTest.IsValidValueShouldWorkCorrectly
+[       OK ] Varchar2TypeTest.IsValidValueShouldWorkCorrectly (0 ms)
+[ RUN      ] Varchar2TypeTest.FactoryMethodsShouldCreateValidInstances
+[       OK ] Varchar2TypeTest.FactoryMethodsShouldCreateValidInstances (0 ms)
+[----------] 7 tests from Varchar2TypeTest (0 ms total)
+
+[----------] 12 tests from NumberTypeTest
+[ RUN      ] NumberTypeTest.ConstructorShouldInitializeWithValidParameters
+[       OK ] NumberTypeTest.ConstructorShouldInitializeWithValidParameters (0 ms)
+[ RUN      ] NumberTypeTest.GetNameShouldReturnCorrectFormatForIntegers
+[       OK ] NumberTypeTest.GetNameShouldReturnCorrectFormatForIntegers (0 ms)
+[ RUN      ] NumberTypeTest.GetNameShouldReturnCorrectFormatForDecimals
+[       OK ] NumberTypeTest.GetNameShouldReturnCorrectFormatForDecimals (0 ms)
+[ RUN      ] NumberTypeTest.ConstructorShouldThrowOnInvalidPrecision
+[       OK ] NumberTypeTest.ConstructorShouldThrowOnInvalidPrecision (0 ms)
+[ RUN      ] NumberTypeTest.ConstructorShouldThrowOnInvalidScale
+[       OK ] NumberTypeTest.ConstructorShouldThrowOnInvalidScale (0 ms)
+[ RUN      ] NumberTypeTest.ConstructorShouldThrowWhenScaleExceedsPrecision
+[       OK ] NumberTypeTest.ConstructorShouldThrowWhenScaleExceedsPrecision (0 ms)
+[ RUN      ] NumberTypeTest.GetSizeShouldReturnCorrectValue
+[       OK ] NumberTypeTest.GetSizeShouldReturnCorrectValue (0 ms)
+[ RUN      ] NumberTypeTest.CloneShouldCreateExactCopy
+[       OK ] NumberTypeTest.CloneShouldCreateExactCopy (0 ms)
+[ RUN      ] NumberTypeTest.IsIntegerShouldReturnCorrectValue
+[       OK ] NumberTypeTest.IsIntegerShouldReturnCorrectValue (0 ms)
+[ RUN      ] NumberTypeTest.IsInRangeShouldWorkCorrectly
+[       OK ] NumberTypeTest.IsInRangeShouldWorkCorrectly (0 ms)
+[ RUN      ] NumberTypeTest.IsInRangeShouldHandleEdgeCases
+[       OK ] NumberTypeTest.IsInRangeShouldHandleEdgeCases (0 ms)
+[ RUN      ] NumberTypeTest.FactoryMethodsShouldCreateValidInstances
+[       OK ] NumberTypeTest.FactoryMethodsShouldCreateValidInstances (0 ms)
+[----------] 12 tests from NumberTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 2 test suites ran. (1 ms total)
+[  PASSED  ] 19 tests.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"minidb_types_tests" end time: Nov 08 18:42 Hora est. Pacífico, Sudamérica
+"minidb_types_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 08 18:42 Hora est. Pacífico, Sudamérica

@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/database_core_tests[1]_tests.cmake")
+  include("C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/database_core_tests[1]_tests.cmake")
+else()
+  add_test(database_core_tests_NOT_BUILT database_core_tests_NOT_BUILT)
+endif()
