@@ -968,6 +968,27 @@ build tests/core/types/CMakeFiles/minidb_types_tests.dir/CharTypeTest.cpp.obj: C
   OBJECT_DIR = tests\core\types\CMakeFiles\minidb_types_tests.dir
   OBJECT_FILE_DIR = tests\core\types\CMakeFiles\minidb_types_tests.dir
 
+build tests/core/types/CMakeFiles/minidb_types_tests.dir/NCharTypeTest.cpp.obj: CXX_COMPILER__minidb_types_tests_unscanned_Debug C$:/Users/jalb2/CLionProjects/MiniDB/tests/core/types/NCharTypeTest.cpp || cmake_object_order_depends_target_minidb_types_tests
+  DEP_FILE = tests\core\types\CMakeFiles\minidb_types_tests.dir\NCharTypeTest.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jalb2/CLionProjects/MiniDB/src -IC:/Users/jalb2/CLionProjects/MiniDB/src/core/types -IC:/Users/jalb2/CLionProjects/MiniDB/src/core -isystem C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = tests\core\types\CMakeFiles\minidb_types_tests.dir
+  OBJECT_FILE_DIR = tests\core\types\CMakeFiles\minidb_types_tests.dir
+
+build tests/core/types/CMakeFiles/minidb_types_tests.dir/NVarchar2TypeTest.cpp.obj: CXX_COMPILER__minidb_types_tests_unscanned_Debug C$:/Users/jalb2/CLionProjects/MiniDB/tests/core/types/NVarchar2TypeTest.cpp || cmake_object_order_depends_target_minidb_types_tests
+  DEP_FILE = tests\core\types\CMakeFiles\minidb_types_tests.dir\NVarchar2TypeTest.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jalb2/CLionProjects/MiniDB/src -IC:/Users/jalb2/CLionProjects/MiniDB/src/core/types -IC:/Users/jalb2/CLionProjects/MiniDB/src/core -isystem C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = tests\core\types\CMakeFiles\minidb_types_tests.dir
+  OBJECT_FILE_DIR = tests\core\types\CMakeFiles\minidb_types_tests.dir
+
+build tests/core/types/CMakeFiles/minidb_types_tests.dir/DateTypeTest.cpp.obj: CXX_COMPILER__minidb_types_tests_unscanned_Debug C$:/Users/jalb2/CLionProjects/MiniDB/tests/core/types/DateTypeTest.cpp || cmake_object_order_depends_target_minidb_types_tests
+  DEP_FILE = tests\core\types\CMakeFiles\minidb_types_tests.dir\DateTypeTest.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jalb2/CLionProjects/MiniDB/src -IC:/Users/jalb2/CLionProjects/MiniDB/src/core/types -IC:/Users/jalb2/CLionProjects/MiniDB/src/core -isystem C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = tests\core\types\CMakeFiles\minidb_types_tests.dir
+  OBJECT_FILE_DIR = tests\core\types\CMakeFiles\minidb_types_tests.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target minidb_types_tests
@@ -976,7 +997,7 @@ build tests/core/types/CMakeFiles/minidb_types_tests.dir/CharTypeTest.cpp.obj: C
 #############################################
 # Link the executable bin\minidb_types_tests.exe
 
-build bin/minidb_types_tests.exe: CXX_EXECUTABLE_LINKER__minidb_types_tests_Debug tests/core/types/CMakeFiles/minidb_types_tests.dir/NumberTypeTest.cpp.obj tests/core/types/CMakeFiles/minidb_types_tests.dir/Varchar2TypeTest.cpp.obj tests/core/types/CMakeFiles/minidb_types_tests.dir/CharTypeTest.cpp.obj | lib/libminidb_types.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a lib/libminidb_types.a
+build bin/minidb_types_tests.exe: CXX_EXECUTABLE_LINKER__minidb_types_tests_Debug tests/core/types/CMakeFiles/minidb_types_tests.dir/NumberTypeTest.cpp.obj tests/core/types/CMakeFiles/minidb_types_tests.dir/Varchar2TypeTest.cpp.obj tests/core/types/CMakeFiles/minidb_types_tests.dir/CharTypeTest.cpp.obj tests/core/types/CMakeFiles/minidb_types_tests.dir/NCharTypeTest.cpp.obj tests/core/types/CMakeFiles/minidb_types_tests.dir/NVarchar2TypeTest.cpp.obj tests/core/types/CMakeFiles/minidb_types_tests.dir/DateTypeTest.cpp.obj | lib/libminidb_types.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a lib/libminidb_types.a
   FLAGS = -g
   LINK_LIBRARIES = lib/libminidb_types.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = tests\core\types\CMakeFiles\minidb_types_tests.dir

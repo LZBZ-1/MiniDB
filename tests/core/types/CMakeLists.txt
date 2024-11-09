@@ -6,6 +6,12 @@ add_executable(minidb_types_tests
         Varchar2TypeTest.hpp
         CharTypeTest.cpp
         CharTypeTest.hpp
+        NCharTypeTest.cpp
+        NCharTypeTest.hpp
+        NVarchar2TypeTest.cpp
+        NVarchar2TypeTest.hpp
+        DateTypeTest.cpp
+        DateTypeTest.hpp
 )
 
 target_link_libraries(minidb_types_tests

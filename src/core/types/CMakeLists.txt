@@ -6,6 +6,9 @@ add_library(minidb_types
         NumberType.hpp
         Varchar2Type.hpp
         CharType.hpp
+        NCharType.hpp
+        NVarchar2Type.hpp
+        DataType.hpp
         exceptions/DataTypeException.hpp
         factories/NumericTypeFactory.hpp
         factories/StringTypeFactory.hpp

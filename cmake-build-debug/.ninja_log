@@ -1,13 +1,13 @@
 # ninja log v6
+11	15986	7528101454369684	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	9a3a862a6c890668
 28	893	7528083726625758	CMakeFiles/database_core.dir/src/core/types/exceptions/DataTypeException.cpp.obj	e5af198ce0317ef
 23	2359	7528083726580514	CMakeFiles/database_core.dir/src/core/types/NumberType.cpp.obj	95e6712b7e87560b
-11	15986	7528101454369684	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	9a3a862a6c890668
 12	1910	7528114793892297	src/core/types/CMakeFiles/minidb_types.dir/NumberType.cpp.obj	51754c11d183f32e
 33	1447	7528083726675780	CMakeFiles/database_core.dir/src/core/types/factories/NumericTypeFactory.cpp.obj	d3274989d2ccdb3c
 17	1493	7528083726520498	CMakeFiles/database_core.dir/src/core/types/NumericType.cpp.obj	3f1c11086c406da1
+17	3750	7528114793946160	tests/core/types/CMakeFiles/minidb_types_tests.dir/NumberTypeTest.cpp.obj	1d5f104e0b4bb024
 35	211	7528105292247439	lib/libgtest_main.a	4a90c481052cd4c0
 2359	2651	7528083749936115	libdatabase_core.a	27223490cc997b8c
-17	3750	7528114793946160	tests/core/types/CMakeFiles/minidb_types_tests.dir/NumberTypeTest.cpp.obj	1d5f104e0b4bb024
 34	4960	7528101454600102	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	cc37fafd56ff56b3
 895	5305	7528083735298681	CMakeFiles/database_core_tests.dir/tests/core/types/NumberTypeTest.cpp.obj	267f0e5dcbac26b
 14	6758	7528102304712673	lib/libgtest.a	837b21df57623a51
@@ -17,8 +17,11 @@
 29	9080	7528101454550098	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	8cb7251d4a31affc
 22	1163	7528105292122228	lib/libgmock.a	bd14278882cc349d
 1163	1335	7528105303537036	lib/libgmock_main.a	2634b61a33ad532a
-3321	8647	7528125218911142	bin/minidb_types_tests.exe	d69264b46d806d42
-23	3320	7528125185936765	tests/core/types/CMakeFiles/minidb_types_tests.dir/Varchar2TypeTest.cpp.obj	2aa89c6caef2274d
-20	3960	7528129679989620	tests/core/types/CMakeFiles/minidb_types_tests.dir/Varchar2TypeTest.cpp.obj	2aa89c6caef2274d
-17	3396	7528129860322505	tests/core/types/CMakeFiles/minidb_types_tests.dir/CharTypeTest.cpp.obj	3e3a97eb69a2c84b
-3397	9920	7528129894131642	bin/minidb_types_tests.exe	20a3ba5799d9572c
+6864	14352	7528140433747611	bin/minidb_types_tests.exe	527dde7b2eb6d10
+46	6491	7528140365563019	tests/core/types/CMakeFiles/minidb_types_tests.dir/Varchar2TypeTest.cpp.obj	2aa89c6caef2274d
+52	6673	7528140365617213	tests/core/types/CMakeFiles/minidb_types_tests.dir/CharTypeTest.cpp.obj	3e3a97eb69a2c84b
+58	6862	7528140365681915	tests/core/types/CMakeFiles/minidb_types_tests.dir/NCharTypeTest.cpp.obj	636d080ca00994be
+7	2223	7528143265517140	build.ninja	a4eeeef21d216ff9
+65	6864	7528140365747168	tests/core/types/CMakeFiles/minidb_types_tests.dir/NVarchar2TypeTest.cpp.obj	3f209115d17ea430
+15	5233	7528145713171295	tests/core/types/CMakeFiles/minidb_types_tests.dir/DateTypeTest.cpp.obj	1bf693e1a82418e2
+5234	11644	7528145765375675	bin/minidb_types_tests.exe	ffe82041e4e02c1e

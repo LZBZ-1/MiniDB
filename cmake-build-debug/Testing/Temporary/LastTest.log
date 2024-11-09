@@ -1,15 +1,68 @@
-Start testing: Nov 08 18:50 Hora est. Pacífico, Sudamérica
+Start testing: Nov 08 19:16 Hora est. Pacífico, Sudamérica
 ----------------------------------------------------------
 1/1 Testing: minidb_types_tests
 1/1 Test: minidb_types_tests
 Command: "C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/bin/minidb_types_tests.exe"
 Directory: C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/tests/core/types
-"minidb_types_tests" start time: Nov 08 18:50 Hora est. Pacífico, Sudamérica
+"minidb_types_tests" start time: Nov 08 19:16 Hora est. Pacífico, Sudamérica
 Output:
 ----------------------------------------------------------
 Running main() from C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 27 tests from 3 test suites.
+[==========] Running 49 tests from 6 test suites.
 [----------] Global test environment set-up.
+[----------] 6 tests from DateTypeTest
+[ RUN      ] DateTypeTest.ConstructorShouldInitializeWithValidParameters
+[       OK ] DateTypeTest.ConstructorShouldInitializeWithValidParameters (0 ms)
+[ RUN      ] DateTypeTest.GetNameShouldReturnCorrectType
+[       OK ] DateTypeTest.GetNameShouldReturnCorrectType (0 ms)
+[ RUN      ] DateTypeTest.ShouldValidateCorrectDates
+[       OK ] DateTypeTest.ShouldValidateCorrectDates (0 ms)
+[ RUN      ] DateTypeTest.ShouldFormatDatesCorrectly
+[       OK ] DateTypeTest.ShouldFormatDatesCorrectly (0 ms)
+[ RUN      ] DateTypeTest.ShouldCompareCorrectly
+[       OK ] DateTypeTest.ShouldCompareCorrectly (0 ms)
+[ RUN      ] DateTypeTest.FactoryMethodShouldCreateValidInstance
+[       OK ] DateTypeTest.FactoryMethodShouldCreateValidInstance (0 ms)
+[----------] 6 tests from DateTypeTest (0 ms total)
+
+[----------] 8 tests from NVarchar2TypeTest
+[ RUN      ] NVarchar2TypeTest.ConstructorShouldInitializeWithValidParameters
+[       OK ] NVarchar2TypeTest.ConstructorShouldInitializeWithValidParameters (0 ms)
+[ RUN      ] NVarchar2TypeTest.GetNameShouldReturnCorrectFormat
+[       OK ] NVarchar2TypeTest.GetNameShouldReturnCorrectFormat (0 ms)
+[ RUN      ] NVarchar2TypeTest.ShouldCalculateCorrectSize
+[       OK ] NVarchar2TypeTest.ShouldCalculateCorrectSize (0 ms)
+[ RUN      ] NVarchar2TypeTest.ShouldHandleUnicodeCharacterCounting
+[       OK ] NVarchar2TypeTest.ShouldHandleUnicodeCharacterCounting (0 ms)
+[ RUN      ] NVarchar2TypeTest.FormatValueShouldNotPad
+[       OK ] NVarchar2TypeTest.FormatValueShouldNotPad (0 ms)
+[ RUN      ] NVarchar2TypeTest.ShouldValidateValueLength
+[       OK ] NVarchar2TypeTest.ShouldValidateValueLength (0 ms)
+[ RUN      ] NVarchar2TypeTest.CompareValuesShouldBeExact
+[       OK ] NVarchar2TypeTest.CompareValuesShouldBeExact (0 ms)
+[ RUN      ] NVarchar2TypeTest.FactoryMethodsShouldCreateValidInstances
+[       OK ] NVarchar2TypeTest.FactoryMethodsShouldCreateValidInstances (0 ms)
+[----------] 8 tests from NVarchar2TypeTest (0 ms total)
+
+[----------] 8 tests from NCharTypeTest
+[ RUN      ] NCharTypeTest.ConstructorShouldInitializeWithValidParameters
+[       OK ] NCharTypeTest.ConstructorShouldInitializeWithValidParameters (0 ms)
+[ RUN      ] NCharTypeTest.GetNameShouldReturnCorrectFormat
+[       OK ] NCharTypeTest.GetNameShouldReturnCorrectFormat (0 ms)
+[ RUN      ] NCharTypeTest.ShouldCalculateCorrectSize
+[       OK ] NCharTypeTest.ShouldCalculateCorrectSize (0 ms)
+[ RUN      ] NCharTypeTest.ShouldHandleUnicodeCharacterCounting
+[       OK ] NCharTypeTest.ShouldHandleUnicodeCharacterCounting (0 ms)
+[ RUN      ] NCharTypeTest.FormatValueShouldPadCorrectly
+[       OK ] NCharTypeTest.FormatValueShouldPadCorrectly (0 ms)
+[ RUN      ] NCharTypeTest.ShouldValidateValueLength
+[       OK ] NCharTypeTest.ShouldValidateValueLength (0 ms)
+[ RUN      ] NCharTypeTest.CompareValuesShouldWorkCorrectly
+[       OK ] NCharTypeTest.CompareValuesShouldWorkCorrectly (0 ms)
+[ RUN      ] NCharTypeTest.FactoryMethodsShouldCreateValidInstances
+[       OK ] NCharTypeTest.FactoryMethodsShouldCreateValidInstances (0 ms)
+[----------] 8 tests from NCharTypeTest (0 ms total)
+
 [----------] 8 tests from CharTypeTest
 [ RUN      ] CharTypeTest.ConstructorShouldInitializeWithValidParameters
 [       OK ] CharTypeTest.ConstructorShouldInitializeWithValidParameters (0 ms)
@@ -27,7 +80,7 @@ Running main() from C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/
 [       OK ] CharTypeTest.CloneShouldCreateExactCopy (0 ms)
 [ RUN      ] CharTypeTest.FactoryMethodsShouldCreateValidInstances
 [       OK ] CharTypeTest.FactoryMethodsShouldCreateValidInstances (0 ms)
-[----------] 8 tests from CharTypeTest (0 ms total)
+[----------] 8 tests from CharTypeTest (1 ms total)
 
 [----------] 7 tests from Varchar2TypeTest
 [ RUN      ] Varchar2TypeTest.ConstructorShouldInitializeWithValidParameters
@@ -74,14 +127,14 @@ Running main() from C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/
 [----------] 12 tests from NumberTypeTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 27 tests from 3 test suites ran. (0 ms total)
-[  PASSED  ] 27 tests.
+[==========] 49 tests from 6 test suites ran. (3 ms total)
+[  PASSED  ] 49 tests.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"minidb_types_tests" end time: Nov 08 18:50 Hora est. Pacífico, Sudamérica
+"minidb_types_tests" end time: Nov 08 19:16 Hora est. Pacífico, Sudamérica
 "minidb_types_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 08 18:50 Hora est. Pacífico, Sudamérica
+End testing: Nov 08 19:16 Hora est. Pacífico, Sudamérica
