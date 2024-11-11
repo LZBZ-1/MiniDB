@@ -9,9 +9,11 @@ add_library(minidb_types
         NCharType.hpp
         NVarchar2Type.hpp
         DataType.hpp
+        TimestampType.hpp
         exceptions/DataTypeException.hpp
         factories/NumericTypeFactory.hpp
         factories/StringTypeFactory.hpp
+        factories/DateTimeTypeFactory.hpp
 
         # Implementations
         NumberType.cpp

@@ -1,15 +1,34 @@
-Start testing: Nov 08 19:16 Hora est. Pacífico, Sudamérica
+Start testing: Nov 11 00:19 Hora est. Pacífico, Sudamérica
 ----------------------------------------------------------
 1/1 Testing: minidb_types_tests
 1/1 Test: minidb_types_tests
 Command: "C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/bin/minidb_types_tests.exe"
 Directory: C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/tests/core/types
-"minidb_types_tests" start time: Nov 08 19:16 Hora est. Pacífico, Sudamérica
+"minidb_types_tests" start time: Nov 11 00:19 Hora est. Pacífico, Sudamérica
 Output:
 ----------------------------------------------------------
 Running main() from C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 49 tests from 6 test suites.
+[==========] Running 57 tests from 7 test suites.
 [----------] Global test environment set-up.
+[----------] 8 tests from TimestampTypeTest
+[ RUN      ] TimestampTypeTest.ConstructorShouldInitializeWithValidParameters
+[       OK ] TimestampTypeTest.ConstructorShouldInitializeWithValidParameters (0 ms)
+[ RUN      ] TimestampTypeTest.GetNameShouldReturnCorrectType
+[       OK ] TimestampTypeTest.GetNameShouldReturnCorrectType (0 ms)
+[ RUN      ] TimestampTypeTest.GetSizeShouldReturnCorrectSize
+[       OK ] TimestampTypeTest.GetSizeShouldReturnCorrectSize (0 ms)
+[ RUN      ] TimestampTypeTest.ShouldValidateCorrectTimestamps
+[       OK ] TimestampTypeTest.ShouldValidateCorrectTimestamps (0 ms)
+[ RUN      ] TimestampTypeTest.ShouldFormatTimestampsCorrectly
+[       OK ] TimestampTypeTest.ShouldFormatTimestampsCorrectly (0 ms)
+[ RUN      ] TimestampTypeTest.ShouldCompareTimestampsCorrectly
+[       OK ] TimestampTypeTest.ShouldCompareTimestampsCorrectly (0 ms)
+[ RUN      ] TimestampTypeTest.FactoryMethodShouldCreateValidInstances
+[       OK ] TimestampTypeTest.FactoryMethodShouldCreateValidInstances (0 ms)
+[ RUN      ] TimestampTypeTest.ShouldThrowOnInvalidTimestamp
+[       OK ] TimestampTypeTest.ShouldThrowOnInvalidTimestamp (0 ms)
+[----------] 8 tests from TimestampTypeTest (0 ms total)
+
 [----------] 6 tests from DateTypeTest
 [ RUN      ] DateTypeTest.ConstructorShouldInitializeWithValidParameters
 [       OK ] DateTypeTest.ConstructorShouldInitializeWithValidParameters (0 ms)
@@ -80,7 +99,7 @@ Running main() from C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/
 [       OK ] CharTypeTest.CloneShouldCreateExactCopy (0 ms)
 [ RUN      ] CharTypeTest.FactoryMethodsShouldCreateValidInstances
 [       OK ] CharTypeTest.FactoryMethodsShouldCreateValidInstances (0 ms)
-[----------] 8 tests from CharTypeTest (1 ms total)
+[----------] 8 tests from CharTypeTest (0 ms total)
 
 [----------] 7 tests from Varchar2TypeTest
 [ RUN      ] Varchar2TypeTest.ConstructorShouldInitializeWithValidParameters
@@ -124,17 +143,17 @@ Running main() from C:/Users/jalb2/CLionProjects/MiniDB/cmake-build-debug/_deps/
 [       OK ] NumberTypeTest.IsInRangeShouldHandleEdgeCases (0 ms)
 [ RUN      ] NumberTypeTest.FactoryMethodsShouldCreateValidInstances
 [       OK ] NumberTypeTest.FactoryMethodsShouldCreateValidInstances (0 ms)
-[----------] 12 tests from NumberTypeTest (0 ms total)
+[----------] 12 tests from NumberTypeTest (3 ms total)
 
 [----------] Global test environment tear-down
-[==========] 49 tests from 6 test suites ran. (3 ms total)
-[  PASSED  ] 49 tests.
+[==========] 57 tests from 7 test suites ran. (5 ms total)
+[  PASSED  ] 57 tests.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"minidb_types_tests" end time: Nov 08 19:16 Hora est. Pacífico, Sudamérica
+"minidb_types_tests" end time: Nov 11 00:19 Hora est. Pacífico, Sudamérica
 "minidb_types_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 08 19:16 Hora est. Pacífico, Sudamérica
+End testing: Nov 11 00:19 Hora est. Pacífico, Sudamérica

@@ -12,6 +12,8 @@ add_executable(minidb_types_tests
         NVarchar2TypeTest.hpp
         DateTypeTest.cpp
         DateTypeTest.hpp
+        TimestampTypeTest.cpp
+        TimestampTypeTest.hpp
 )
 
 target_link_libraries(minidb_types_tests

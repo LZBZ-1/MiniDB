@@ -1,2 +1,2 @@
-minidb_types_tests 10 0.0100355
+minidb_types_tests 11 0.00727828
 ---
